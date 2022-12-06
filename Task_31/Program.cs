@@ -1,30 +1,43 @@
-﻿// Задача 31: Задайте массив из 12 элементов, заполненный случайными числами из промежутка [-9, 9]. 
+﻿// Задача 31: Задайте массив из 12 элементов, заполненный случайными числами из промежутка [-9, 9]. Next(-9, 10)  [-9; 10)
 // Найдите сумму отрицательных и положительных элементов массива.
 
-int[] array = new int [12];
-Random rand = new Random();
+const int SIZE = 12;
+const int LEFT_RANGE = -9;
+const int RIGHT_RANGE = 9;
 
-int sumPositive = 0;
-int sumNegative = 0;
+int[] array = new int[SIZE];
 
-for (int i=0; i<array.Length; i++)
+
+int[] FillArrayWithRandomNumbers(int size, int leftRange, int rightRange)
 {
-    array[i] = rand.Next(-9, 10);
+    Random rand = new Random();
+    int[] arr = new int[size];
+    for( int i = 0 ; i<size; i++)
+    { 
+        arr[i] = rand.Next(leftRange, rightRange + 1); // [-9; 10)
+    }
+    return arr;
 }
 
-System.Console.WriteLine('[' + string.Join(", ", array) + ']');
-
-for (int i=0; i<array.Length; i++)
+void SumPositiveAndNegative(int[] arr, out int sumP, out int sumN)
 {
-    if(array[i]>0)
+    sumP = 0;
+    sumN = 0;
+    for(int i = 0; i<arr.Length; i++)
     {
-        sumPositive+=array[i];
-    }
-
-    else
-    {
-    sumNegative+=array[i];
+        if(arr[i] > 0)
+        {
+           sumP+=arr[i]; // sumP = sumP + array[i] // INDEX = INDEX + 1 // INDEX++ // INDEX +=array[i] 
+        }
+        else
+        {
+            sumN+=arr[i];
+        }   
     }
 }
 
-Console.WriteLine($"Сумма положительных элементов = {sumPositive}, отрицательных = {sumNegative}");
+array = FillArrayWithRandomNumbers(12, -9, 9);
+Console.WriteLine('[' + string.Join(", ", array) + ']');
+SumPositiveAndNegative(array, out int sumP, out int sumN);
+
+Console.WriteLine($"Сумма положительных элементов = {sumP}, отрицательных = {sumN}");
