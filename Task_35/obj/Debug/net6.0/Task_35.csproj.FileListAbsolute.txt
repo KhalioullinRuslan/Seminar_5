@@ -1,0 +1,15 @@
+E:\Обучение\Программирование\C#\Seminar_5\Task_35\bin\Debug\net6.0\Task_35.exe
+E:\Обучение\Программирование\C#\Seminar_5\Task_35\bin\Debug\net6.0\Task_35.deps.json
+E:\Обучение\Программирование\C#\Seminar_5\Task_35\bin\Debug\net6.0\Task_35.runtimeconfig.json
+E:\Обучение\Программирование\C#\Seminar_5\Task_35\bin\Debug\net6.0\Task_35.dll
+E:\Обучение\Программирование\C#\Seminar_5\Task_35\bin\Debug\net6.0\Task_35.pdb
+E:\Обучение\Программирование\C#\Seminar_5\Task_35\obj\Debug\net6.0\Task_35.csproj.AssemblyReference.cache
+E:\Обучение\Программирование\C#\Seminar_5\Task_35\obj\Debug\net6.0\Task_35.GeneratedMSBuildEditorConfig.editorconfig
+E:\Обучение\Программирование\C#\Seminar_5\Task_35\obj\Debug\net6.0\Task_35.AssemblyInfoInputs.cache
+E:\Обучение\Программирование\C#\Seminar_5\Task_35\obj\Debug\net6.0\Task_35.AssemblyInfo.cs
+E:\Обучение\Программирование\C#\Seminar_5\Task_35\obj\Debug\net6.0\Task_35.csproj.CoreCompileInputs.cache
+E:\Обучение\Программирование\C#\Seminar_5\Task_35\obj\Debug\net6.0\Task_35.dll
+E:\Обучение\Программирование\C#\Seminar_5\Task_35\obj\Debug\net6.0\refint\Task_35.dll
+E:\Обучение\Программирование\C#\Seminar_5\Task_35\obj\Debug\net6.0\Task_35.pdb
+E:\Обучение\Программирование\C#\Seminar_5\Task_35\obj\Debug\net6.0\Task_35.genruntimeconfig.cache
+E:\Обучение\Программирование\C#\Seminar_5\Task_35\obj\Debug\net6.0\ref\Task_35.dll
